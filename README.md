@@ -42,8 +42,14 @@ FAQ.java | FAQ.py
 ![image](http://i4.buimg.com/567571/74907be0ac9b9c55.png)
 
 - Level 1: when confidence threshold (Similarity >= 75) more than 75%, it means chatbot can find the high-accuracy answer by ![image](http://i2.buimg.com/567571/f88ec484f0b10ba4.png)
-- Level 2: when confidence between 40% and 75%(Similarity > 40). I use "Fuzzy Search Algorithm" to slected the top similiraty question. ![image](http://i4.buimg.com/567571/1ef668b740414d2f.png)
-- Level 3: when confidence less than 40%, it means chatbot couldn't find the proper answer for customer.![image](http://i1.piimg.com/567571/0e406e8d792587eb.png)
+- Level 2: when confidence between 40% and 75%(Similarity > 40). I use "Fuzzy Search Algorithm" to slected the top similiraty question. 
+
+![image](http://i4.buimg.com/567571/1ef668b740414d2f.png)
+
+
+- Level 3: when confidence less than 40%, it means chatbot couldn't find the proper answer for customer.
+
+![image](http://i1.piimg.com/567571/0e406e8d792587eb.png)
 
 
 ## Contiune Deploy Analysis ....
