@@ -79,4 +79,4 @@ FAQ.java | FAQ.py
 # License
 Author: Daniel Zhang [MIT License](http://www.opensource.org/licenses/MIT)
 
-<img src="http://i2.buimg.com/567571/65205e085388d236.png" width="48" height="48">
+<img src="http://i2.buimg.com/567571/65205e085388d236.png" width="80" height="80">
