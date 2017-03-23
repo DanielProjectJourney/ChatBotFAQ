@@ -34,15 +34,22 @@ public class Chatbot {
     
         FAQ faq = (FAQ) clientServer.getPythonServerEntryPoint(new Class[] { FAQ.class });
         
+        //Test Serialize Interval
+        long startTime1=System.currentTimeMillis();
         faq.serialize();
+        long endTime1=System.currentTimeMillis();
+        System.out.println("Serialize Interval: "+(endTime1-startTime1)+"ms"); 
         System.out.println("Hi, I am Chat robort What Can I do for you?");
         Scanner userInput = new Scanner(System.in);
        
         while(true){
         String userinput = userInput.nextLine();
+        long startTime2=System.currentTimeMillis();
         faq.setQuestion(userinput);
         faq.setAnswer(userinput);
         System.out.println(faq.getAnswer());
+        long endTime2=System.currentTimeMillis();
+        System.out.println("Chatbot Answer Interval: "+(endTime2-startTime2)+"ms"); 
         }
       
 //        clientServer.shutdown();

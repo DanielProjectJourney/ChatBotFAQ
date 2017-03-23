@@ -51,5 +51,23 @@ FAQ.java | FAQ.py
 
 ![image](http://i1.piimg.com/567571/0e406e8d792587eb.png)
 
+---
+
+# Performance Analysis
+### Due to every text will be processed into 300 Vectors,  I serialise the vectors of every text into the faq_feats.pkl(Pickle File).
+
+### When customer start chat, background process will implement the serilization. Then will display "Hi, I am Chat Robort. What Can I do for you?"
+
+![image](http://i1.piimg.com/567571/29033dff7beefe64.png)
+![image](http://i1.piimg.com/567571/ac55a5c1fdc45bc7.png)
+
+## Caculate Reply Time (Between Java & Python)
+
+1. Find the Answer
+
+![image](http://i1.piimg.com/567571/1fe552952ec65a1a.png)
+
+2. Know Nothing
+![image](http://i4.buimg.com/567571/61e83e1e4bd3b854.png)
 
 ## Contiune Deploy Analysis ....
