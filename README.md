@@ -67,7 +67,16 @@ FAQ.java | FAQ.py
 
 ![image](http://i1.piimg.com/567571/1fe552952ec65a1a.png)
 
-2. Know Nothing
+2. Know 
+
 ![image](http://i4.buimg.com/567571/61e83e1e4bd3b854.png)
 
 ## Contiune Deploy Analysis ....
+
+---
+
+
+# License
+Author: Daniel Zhang [MIT License](http://www.opensource.org/licenses/MIT)
+
+<img src="http://i2.buimg.com/567571/65205e085388d236.png" width="48" height="48">
